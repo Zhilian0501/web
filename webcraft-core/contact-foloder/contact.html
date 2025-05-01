@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>聯絡我們 - WebCraft Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">WebCraft Studio</a>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="about.html">關於我們</a></li>
+        <li><a href="services.html">服務項目</a></li>
+        <li><a href="portfolio.html">作品展示</a></li>
+        <li><a href="contact.html" class="active">聯絡我們</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 主內容 -->
+  <main>
+    <section class="page-header">
+      <h1>聯絡我們</h1>
+      <p>我們樂意聽見您的需求，歡迎留言或來信！</p>
+    </section>
+
+    <section class="contact-section">
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">姓名</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">主旨</label>
+        <input type="text" id="subject" name="subject" required />
+
+        <label for="message">訊息內容</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">送出訊息</button>
+      </form>
+
+      <div class="contact-info">
+        <h2>聯絡資訊</h2>
+        <p>Email：contact@webcraftstudio.com</p>
+        <p>電話：02-1234-5678</p>
+        <p>地址：台北市創業路88號8樓</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 頁尾 -->
+  <footer>
+    <p>&copy; 2025 WebCraft Studio | 網頁設計及開發公司平台</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
