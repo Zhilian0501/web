@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的任務 - WebCraft Studio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">WebCraft Studio</a>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="member.html">員工平台</a></li>
+        <li><a href="tasks.html" class="active">我的任務</a></li>
+        <li><a href="contact.html">聯絡我們</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 主內容 -->
+  <main>
+    <section class="page-header">
+      <h1>我的任務</h1>
+      <p>目前共有 <strong>3</strong> 項任務正在執行</p>
+    </section>
+
+    <section class="task-section">
+      <div class="task-card">
+        <h2>網站首頁設計修正</h2>
+        <p>負責調整 RWD、字體間距與圖片輪播區</p>
+        <p>指派日期：2025/04/28｜截止日期：2025/05/03</p>
+        <p class="status doing">進度狀態：進行中</p>
+      </div>
+
+      <div class="task-card">
+        <h2>撰寫品牌介紹文案</h2>
+        <p>提供精簡且具吸引力的公司理念段落</p>
+        <p>指派日期：2025/04/30｜截止日期：2025/05/04</p>
+        <p class="status not-started">進度狀態：尚未開始</p>
+      </div>
+
+      <div class="task-card">
+        <h2>內部簡報資料製作</h2>
+        <p>彙整最近完成項目並製作 Google Slides</p>
+        <p>指派日期：2025/04/25｜截止日期：2025/05/01</p>
+        <p class="status done">進度狀態：已完成</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 頁尾 -->
+  <footer>
+    <p>&copy; 2025 WebCraft Studio | 員工系統平台</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

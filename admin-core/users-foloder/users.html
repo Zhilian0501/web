@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>員工管理 - WebCraft Studio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">WebCraft Studio</a>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="admin.html">後台首頁</a></li>
+        <li><a href="admin_users.html" class="active">員工管理</a></li>
+        <li><a href="admin_board.html">貼文管理</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 主內容 -->
+  <main>
+    <section class="page-header">
+      <h1>員工管理</h1>
+      <p>管理員工帳號、職稱與權限（模擬資料）</p>
+    </section>
+
+    <section class="user-list">
+      <div class="user-card">
+        <p><strong>姓名：</strong>林小文</p>
+        <p><strong>Email：</strong>linxw@example.com</p>
+        <p><strong>職稱：</strong>設計師</p>
+        <label>權限：
+          <select>
+            <option>一般員工</option>
+            <option>管理員</option>
+          </select>
+        </label>
+        <button class="archive-btn">封存帳號</button>
+      </div>
+
+      <div class="user-card">
+        <p><strong>姓名：</strong>黃宇謙</p>
+        <p><strong>Email：</strong>yuchien@example.com</p>
+        <p><strong>職稱：</strong>前端工程師</p>
+        <label>權限：
+          <select>
+            <option selected>管理員</option>
+            <option>一般員工</option>
+          </select>
+        </label>
+        <button class="archive-btn">封存帳號</button>
+      </div>
+
+      <!-- 更多員工資料 -->
+    </section>
+  </main>
+
+  <!-- 頁尾 -->
+  <footer>
+    <p>&copy; 2025 WebCraft Studio | 管理後台系統</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
