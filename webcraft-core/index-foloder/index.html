@@ -17,12 +17,9 @@
         &#9776;
       </button>
       <ul class="nav-links">
-        <li><a href="../../admin-core/admin-foloder/admin.html">聯絡我們</a></li>
         <li><a href="#home">首頁</a></li>
         <li><a href="#about">關於我們</a></li>
         <li><a href="#services">服務項目</a></li>
-        <li><a href="#portfolio">作品展示</a></li>
-        <li><a href="#testimonials">客戶見證</a></li>
         <li><a href="#contact">聯絡我們</a></li>
       </ul>
     </nav>
@@ -37,59 +34,353 @@
 
   <!-- 公司簡介 -->
   <section id="about">
-    <h2>關於我們</h2>
-    <p>我們是一家專注於網站設計、前端開發、品牌視覺與行銷整合的創意團隊，協助企業提升數位競爭力。</p>
+    <h2>🌿 關於我們 About Us</h2>
+    <p>
+      我們是一群熱愛設計與技術的專業團隊，致力於打造兼具美感與效能的數位體驗。從品牌網站、電商平台到企業後台系統，我們專注每一個細節，為每位客戶量身打造專屬方案。
+      
+      我們深信，網站不只是門面，更是品牌溝通與轉化的關鍵。透過策略思維、視覺設計、互動體驗與技術整合，我們協助品牌在線上脫穎而出，建立可信賴的數位形象。
+      
+      不論你是剛起步的創業者，還是正在數位轉型的企業，我們都願意成為你可靠的技術夥伴。
+      
+      </p>
   </section>
 
   <!-- 服務項目 -->
-  <section id="services">
+  <head>
+    <meta charset="UTF-8" />
     <h2>服務項目</h2>
-    <ul>
-      <li>品牌網站設計與開發</li>
-      <li>購物車與會員系統建置</li>
-      <li>RWD 響應式網頁設計</li>
-      <li>SEO 優化與追蹤</li>
-      <li>UI/UX 介面規劃</li>
-      <li>專案代管與維護</li>
-    </ul>
-  </section>
+    <style>
+      body {
+        font-family: "Helvetica Neue", sans-serif;
+        background: #f0f4f8;
+        padding: 40px;
+      }
+  
+      .service-section {
+        max-width: 960px;
+        margin-left: 0；
+      }
+  
+      .service-block {
+        background: white;
+        border-left: 6px solid #4ec3c7;
+        border-radius: 12px;
+        padding: 24px 30px;
+        margin-bottom: 28px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+  
+      .service-block:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      }
+  
+      .service-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #2a7d8c;
+        margin-bottom: 16px;
+      }
+  
+      .service-list {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin: 0;
+      }
+  
+      .service-list li {
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: #333;
+      }
+  
+      @media (max-width: 600px) {
+        body {
+          padding: 20px;
+        }
+  
+        .service-block {
+          padding: 20px;
+        }
+  
+        .service-title {
+          font-size: 18px;
+        }
+  
+        .service-list li {
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+  
+  <div class="service-section">
 
-  <!-- 客戶見證 -->
-  <section id="testimonials">
-    <h2>客戶見證</h2>
-    <blockquote>
-      <p>「這是我們合作過最專業的網頁團隊！」</p>
-      <cite>— 客戶 A</cite>
-    </blockquote>
-    <blockquote>
-      <p>「從設計到開發，每一步都讓我們感到安心。」</p>
-      <cite>— 客戶 B</cite>
-    </blockquote>
-  </section>
+    <div class="service-block">
+      <div class="service-title">🔹 一、網站設計與開發</div>
+      <ul class="service-list">
+        <li>客製化企業網站設計（含形象頁、品牌介紹、產品展示等）</li>
+        <li>響應式設計（支援手機／平板／桌機）</li>
+        <li>電商平台建置（購物車、金流物流整合）</li>
+        <li>表單、會員系統、訂單系統等動態功能整合</li>
+        <li>SEO 搜尋優化與 GA 數據追蹤串接</li>
+        <li>Firebase / MySQL / REST API 資料庫後端整合</li>
+      </ul>
+    </div>
+  
+    <div class="service-block">
+      <div class="service-title">🔹 二、個人／品牌簡介設計</div>
+      <ul class="service-list">
+        <li>創業者／講師／藝人專屬網站設計（個人介紹＋作品展示）</li>
+        <li>個人主頁連結頁（類似 Linktree，但更美觀、可客製）</li>
+        <li>品牌識別與主視覺設計（Logo、配色系統、字體選定）</li>
+        <li>專屬動畫簡介頁（可用於活動、報名連結）</li>
+      </ul>
+    </div>
+  
+    <div class="service-block">
+      <div class="service-title">🔹 三、影片剪輯與動畫製作</div>
+      <ul class="service-list">
+        <li>YouTube 影片剪輯、簡報影片剪輯</li>
+        <li>Reels / Shorts / TikTok 短影音剪輯與優化</li>
+        <li>Lottie 動畫設計（網站動效）</li>
+        <li>形象宣傳片製作（含腳本與字幕）</li>
+      </ul>
+    </div>
+  
+    <div class="service-block">
+      <div class="service-title">🔹 四、設計與品牌視覺整合</div>
+      <ul class="service-list">
+        <li>商業 Logo 設計與品牌識別系統建立</li>
+        <li>社群素材設計（Facebook、Instagram、LINE 官方）</li>
+        <li>Banner、簡報、DM 等各式平面視覺設計</li>
+        <li>活動主視覺、線上會議／直播背景設計</li>
+      </ul>
+    </div>
+  
+    <div class="service-block">
+      <div class="service-title">🔹 五、內部系統開發與數位轉型</div>
+      <ul class="service-list">
+        <li>員工資料系統、薪資查詢、請假表單等管理系統開發</li>
+        <li>公司內部使用的工作任務追蹤系統</li>
+        <li>文件中心與表單審核系統</li>
+        <li>雲端系統整合（Firebase、Google Workspace、自動化）</li>
+      </ul>
+    </div>
+  
+    <div class="service-block">
+      <div class="service-title">🔹 六、Discord／Minecraft 整合開發服務（進階專案）</div>
+      <ul class="service-list">
+        <li>Discord Bot 開發（白名單審核、表單系統、自動通知）</li>
+        <li>Minecraft 伺服器插件整合與自動化金流系統</li>
+        <li>遊戲內 NPC 任務系統、虛擬貨幣經濟設計</li>
+        <li>遊戲 × Discord 一條龍系統建置</li>
+      </ul>
+    </div>
+  
+    <div class="service-block">
+      <div class="service-title">🔹 七、數位顧問與教育訓練</div>
+      <ul class="service-list">
+        <li>數位轉型顧問服務（小型品牌／公司導入系統規劃）</li>
+        <li>Python／網頁前端／Firebase／Discord Bot 教學</li>
+        <li>創業流程顧問與網站營運教學</li>
+        <li>提供完整教材與線上技術支援服務</li>
+      </ul>
+    </div>
+  
+  </div>
+  
+  </body>
+
+  <!--價目表-->
+  <h2>服務價格表</h2>
+  <head>
+    <style>
+      table {
+        width: 100%;
+        max-width: 800px;
+        border-collapse: collapse;
+        margin-bottom: 32px;
+      }
+    
+      table th, table td {
+        border: 1px solid #ccc;
+        padding: 12px;
+        text-align: left;
+      }
+    
+      table th {
+        background-color: #f4f4f4;
+      }
+    </style>
+  </head>
+
+<!-- 一、網站設計與開發 -->
+
+<h3>🔹 一、網站設計與開發</h3>
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>項目</th>
+    <th>價格</th>
+  </tr>
+  <tr>
+    <td>基本形象網站（3頁內）</td>
+    <td>NT$ 10000~ 25,000 起</td>
+  </tr>
+  <tr>
+    <td>企業網站建置</td>
+    <td>NT$ 55,000 起</td>
+  </tr>
+  <tr>
+    <td>動態功能整合（會員／表單／訂單）</td>
+    <td>NT$ 25,000 - 50,000</td>
+  </tr>
+  <tr>
+    <td>Firebase／MySQL 串接</td>
+    <td>NT$ 30,000 起</td>
+  </tr>
+</table>
+
+<!-- 二、個人／品牌簡介設計 -->
+<h3>🔹 二、個人／品牌簡介設計</h3>
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>項目</th>
+    <th>價格</th>
+  </tr>
+  <tr>
+    <td>個人形象頁（介紹＋作品）</td>
+    <td>NT$ 5000起</td>
+  </tr>
+  <tr>
+    <td>品牌主頁連結（Linktree 客製）</td>
+    <td>NT$ 8,000 起</td>
+  </tr>
+  <tr>
+    <td>動畫簡介頁</td>
+    <td>NT$ 18,000 起</td>
+  </tr>
+</table>
+
+<!-- 三、影片剪輯與動畫製作 -->
+<h3>🔹 三、影片剪輯與動畫製作</h3>
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>項目</th>
+    <th>價格</th>
+  </tr>
+  <tr>
+    <td>YouTube 影片剪輯</td>
+    <td>NT$ 2,000 起</td>
+  </tr>
+  <tr>
+    <td>短影音剪輯（Reels／Shorts）</td>
+    <td>NT$ 1,500 - 3,000</td>
+  </tr>
+  <tr>
+    <td>Lottie 網頁動畫設計</td>
+    <td>NT$ 8,000 起</td>
+  </tr>
+</table>
+
+<!-- 四、設計與品牌視覺整合 -->
+<h3>🔹 四、設計與品牌視覺整合</h3>
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>項目</th>
+    <th>價格</th>
+  </tr>
+  <tr>
+    <td>Logo 設計</td>
+    <td>NT$ 6,000 起</td>
+  </tr>
+  <tr>
+    <td>社群素材設計（5 張）</td>
+    <td>NT$ 2,500 起</td>
+  </tr>
+  <tr>
+    <td>活動主視覺</td>
+    <td>NT$ 5,000 起</td>
+  </tr>
+  <tr>
+    <td>建築平面設計</td>
+    <td>NT$ 1,000~5000 / 張 起</td>
+  </tr>
+</table>
+
+<!-- 五、內部系統開發與數位轉型 -->
+<h3>🔹 五、內部系統開發與數位轉型</h3>
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>項目</th>
+    <th>價格</th>
+  </tr>
+  <tr>
+    <td>請假／薪資／任務管理系統</td>
+    <td>NT$ 100,000 起</td>
+  </tr>
+  <tr>
+    <td>表單審核與文件中心</td>
+    <td>NT$ 120,000 起</td>
+  </tr>
+  <tr>
+    <td>Firebase／Google 自動化串接</td>
+    <td>依功能報價</td>
+  </tr>
+</table>
+
+<!-- 六、Discord／Minecraft 整合開發 -->
+<h3>🔹 六、Discord／Minecraft 整合開發</h3>
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>項目</th>
+    <th>價格</th>
+  </tr>
+  <tr>
+    <td>Discord Bot 系統（含白名單、金流、簽到）</td>
+    <td>NT$ 15,000 - 60,000</td>
+  </tr>
+  <tr>
+    <td>Minecraft 插件／自動化整合</td>
+    <td>NT$ 20,000 起</td>
+  </tr>
+  <tr>
+    <td>遊戲 × Discord 綜合系統</td>
+    <td>NT$ 80,000 起</td>
+  </tr>
+</table>
+
+<p><em>📌 所有價格可依需求調整，歡迎洽詢詳細報價與服務內容。</em></p>
 
   <!-- 聯絡我們 -->
   <section id="contact">
     <h2>聯絡我們</h2>
-    <form action="#" method="POST">
-      <label for="name">姓名</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="phone">電話號碼</label>
-      <input type="phone" id="phone" name="phone" required />
-
-      <label for="message">訊息</label>
-      <textarea id="message" name="message" required></textarea>
-
-      <button type="submit">送出訊息</button>
-    </form>
+  
+    
   </section>
 
-  <!-- 頁尾 -->
+  <!-- 頁尾 --><div class="footer-links" id="footer-links">
+  <a href="../policy-folder/policy.html">使用條款</a> |
+  <a href="../policy-folder/policy.html">隱私政策</a>
+</div>
+<div class="footer-contact">
+  聯絡我們：verdantpeakdew@gmail.com | 電話：(02)1234-5678
+</div>
+<div class="footer-social">
+  <a href="#" class="FaceBook-btn">
+    <img src="../../images/FaceBook.png" alt="FaceBook" class="FaceBook-icon" />
+  </a>
+  <a href="https://www.instagram.com/verdantpeak_drink/" class="Instagram-btn">
+    <img src="../../images/Instagram.png" alt="Instagram" class="Instagram-icon" />
+  </a>
+  <a href="#" class="Line-btn">
+    <img src="../../images/Line.png" alt="Line" class="Line-icon" />
+  </a>
+</div>
   <footer>
-    <p>&copy; 2025 WebCraft Studio | 網頁設計及開發公司平台</p>
+    <p>&copy; 2025 WebCraft Studio | 翠峰飲品開發公司旗下 網頁設計及開發公司平台</p>
   </footer>
 
 </body>
